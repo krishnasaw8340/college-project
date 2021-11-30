@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color:#2196F3;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+.img{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding:  0 0 0 8px;
+}
+.clgname{
+    font: 600 20px/0.8 'Verdana', Helvetica, sans-serif;
+    text-shadow: 10px 7px 20px #000000; 
+    display: flex;
+    color: #ffff;
+    align-items: center;
+    padding: 0 0 0 20px;    
+}
+/* Tablet responsive */
+@media only screen and (max-width: 1025px){
+    
+    .clgname{
+        font-size: 18px;
+    }
+}
+/* Mobile responsive */
+@media only screen and (max-width: 594px){
+    
+    .clgname{
+        font-size: 12px;
+        font-weight: 400px;
+    } 
+}

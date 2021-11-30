@@ -1,0 +1,227 @@
+
+/* :root{
+    color: #FFDD94;
+    color:#FF6A6A ;
+    color: #2196F3 ;
+    color:#F7F7F7 ;
+} */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-div{
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row; 
+}
+h2{
+    text-align: center;
+}
+.heading{
+    font-size: 22px;
+}
+.department-choose{
+    width: 20vw;
+
+}
+.btn-depart{
+    display: flex;
+    flex-direction: column;
+}
+.button-specific{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 32px;
+    box-shadow: 5px -1px 15px 3px rgb(0, 0, 0);
+    padding: 11px 18px;
+    margin: 9px 0 20px 5px;
+    font-size: 16px;
+}
+.data-depart{
+    width: 80vw;
+
+}
+button:hover{
+    background-color: #2196F3;
+    color: #ffff;
+}
+button:active{
+    background-color: #2196F3;
+}
+.current-year{
+    font-size: 20px;
+    padding-right: 20px;
+    color: black;
+}
+.std-portal{
+    color:rgb(233, 68, 18);
+}
+
+button{
+  border: 1px solid rgb(146, 2, 2);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+span{
+    font-size: 20px;
+    padding-right: 20px;
+    color: black;
+}
+
+.dp{
+    color: #2196F3;
+    font-size: 25px;
+    padding-bottom: 20px;
+
+
+}
+/* //Computer Screen  */
+@media only screen and (min-width: 1025px){
+    .main-div{
+        height: 90vh;
+        width: 100vw;
+        /* background-color: aquamarine; */
+        display: flex;
+        flex-direction: row;
+        margin: 0 6% 0 8%;
+       
+    }
+    .select-year{
+        display: flex;
+        margin-left: 20%;
+    }
+    .year-sem{
+        margin-left: 20%;
+        padding: 5% 0 0 0 ;
+    }
+    .seleced-year{
+        padding: 0 20px 0 20px;
+        font-size: 16px;
+        border-radius: 20px;
+        box-shadow: 5px 5px 5px black;
+    }
+    .sem-button{
+        padding: 0 8px 0 8px;
+        font-size: 17px;
+        border-radius: 15px;
+        box-shadow:  0 5px 5px 0px black;
+
+    }
+    .button-specific{
+
+    }
+    .btn-depart{
+        margin: 0 20% 0 20%;
+    }
+    .heading{
+        padding: 5% 0% 0% 25%;
+    }
+
+    .semster-wise{
+        padding: 0 10px 0 10px;
+    }
+    .yr{
+        padding: 0 10px 0 10px;
+    }
+
+}
+/* Tablet Responsive */
+@media only screen and (max-width: 1025px){
+    .button-specific{
+        border: 1px solid black;
+        border-radius: 20px;
+        padding: 15px 32px;
+        font-size: 13px;
+    }
+    .select-year,.year-sem{
+        display: flex;
+        justify-content: center;
+        /* background-color: violet; */
+    }
+    .seleced-year{
+        padding: 0 20px 0 20px;
+        font-size: 16px;
+        border-radius: 20px;
+        box-shadow: 10px 5px 5px black;
+    }
+    .sem-button{
+        padding: 0 8px 0 8px;
+        font-size: 13px;
+        border-radius: 15px;
+        box-shadow:  0 8px 8px 0px black;
+
+    }
+    .year-sem{
+        padding: 5% 0 0 0 ;
+    }
+
+    .heading{
+        padding: 5% 0% 0% 28%;
+    }
+
+
+    
+}
+/* Mobile Responsive */
+@media only screen and (max-width: 594px){
+    .button-specific{
+        /* background-color:rgba(156, 41, 127, 0.199); */
+        border: 1px solid black;
+        border-radius: 20px;
+        padding: 10px 16px;
+        font-size: 8px;
+    }
+    .btn-depart{
+        display: flex;
+        flex-direction: column;
+        /* background-color: brown; */
+        /* align-items: center; */
+        justify-content: center;
+        /* align-items: center; */
+    }
+    .seleced-year{
+        font-size: 8px; 
+    }   
+        .sem-button{
+            padding: 0 2px 0 2px;
+            /* padding: 0px; */
+            font-size: 8px;
+            border-radius: 15px;
+            box-shadow:  0 4px 4px 0px black;
+    
+        }    
+        .year-sem{
+            padding: 3% 0 0 0 ;
+        }
+        .heading{
+            padding-right: 20%;
+        }
+
+}
+
+/* Second part */
+.heading{
+}
+
+.select-year{
+    display: flex;
+    flex-direction: row;
+    padding: 10% 0 0 0;
+}
+.seleced-year{
+    padding: 0 5px 0 5px;
+    /* margin: 5px; */
+}
+.year-sem{
+    display: flex;
+    flex-direction: row;
+}
+ 
